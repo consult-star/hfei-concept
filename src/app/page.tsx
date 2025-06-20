@@ -48,7 +48,12 @@ function NavBar() {
     <nav className="flex items-center justify-between space-x-8 p-4 w-full">
       <div className="flex items-center space-x-8">
         <div className="h-full">
-          <Image src={"/logo.png"} width={120} height={10} alt="hfei-logo" />
+          <Image
+            src={"/hfei-concept/logo.png"}
+            width={120}
+            height={10}
+            alt="hfei-logo"
+          />
         </div>
         <div>
           <div className="hidden md:block lg:text-sm font-[500] h-full">
@@ -101,7 +106,7 @@ function Vitrine() {
         </Link>
       </div>
       <Image
-        src={"/image.png"}
+        src={"/hfei-concept/image.png"}
         className="object-cover bg-center rounded-md w-full h-full"
         width={1920}
         height={1920}
@@ -119,7 +124,7 @@ function Section00_Pane() {
           Événement
         </p>
         <Image
-          src={"/image.png"}
+          src={"/hfei-concept/image.png"}
           className="object-cover rounded-t-md"
           width={1000}
           height={1000}
@@ -186,7 +191,7 @@ function Section01() {
     <div className="flex flex-col items-center py-20 space-y-20 bg-gradient-to-r from-[#273A8E] to-[#2A343E]">
       <div>
         <Image
-          src={"/logo-white.png"}
+          src={"/hfei-concept/logo-white.png"}
           width={160}
           height={160}
           alt="hfei-logo"
